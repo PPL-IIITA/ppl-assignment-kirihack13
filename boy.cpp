@@ -1,3 +1,8 @@
+/*!\mainpage PPL assignment
+	*developed by
+	*      Harpahul Singh Bhatia
+	*      IIT2015082
+*/
 #include "boy.h"
 #include <string>
 boy::boy(std::string name, int attractiveness, int intelligence, int min_attract, bool is_commited, int type, int budget){
