@@ -1,6 +1,7 @@
 #include "gift.h"
 #include <string>
 gift::gift(int value,double price){
+//!constructor essential gift
     this->value = value;
     this->price = price;
     this->type = 1;
@@ -11,8 +12,9 @@ gift::gift(int value,double price){
     this->alc = 0;
 }
 gift::gift(int value,double price, int lux_rat, int difficulty){
-    this->value = value;
-    this->price = price;
+//!constructor luxury gift
+    	this->value = value;
+    	this->price = price;
 	this->lux_rat = lux_rat;
 	this->difficulty = difficulty;
 	this->type = 3;
@@ -21,6 +23,7 @@ gift::gift(int value,double price, int lux_rat, int difficulty){
 	this->alc = 0;
 }
 gift::gift(int value, double price, int util_val, float util_class){
+//!constructor utility gift	
 	this->value = value;
 	this->price = price;
 	this->util_val = util_val;

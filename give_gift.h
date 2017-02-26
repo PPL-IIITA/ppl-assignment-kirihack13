@@ -4,7 +4,7 @@
 #include "rel.h"
 #include <vector>
 class give_gift{
-	friend void giveGift(std::vector<gift> &g, std::vector<rel> &r);
+	friend void giveGift(std::vector<gift> &g, std::vector<rel> &r); // friendly function so it can be accesed outside the class
 };
 void giveGift(std::vector<gift> &g, std::vector<rel> &r);
 #endif

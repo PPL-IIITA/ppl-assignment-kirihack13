@@ -1,3 +1,4 @@
+//!program to randomly generate boys, girls, gifts
 #include<stdio.h>
 #include<fstream>
 #include<stdlib.h>

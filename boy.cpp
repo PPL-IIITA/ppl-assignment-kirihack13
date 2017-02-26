@@ -1,6 +1,7 @@
 #include "boy.h"
 #include <string>
 boy::boy(std::string name, int attractiveness, int intelligence, int min_attract, bool is_commited, int type, int budget){
+//!constructor
 	this->name = name;
 	this->attractiveness = attractiveness;
 	this->intelligence = intelligence;
@@ -30,15 +31,6 @@ void boy::setMin_attract(int min_attract){
 void boy::setBudget(int budget){
 	this->budget = budget;
 }
-/*void boy::setSpent(int spent){
-	this->spent = spent;
-}
-void boy::setGifts(int gifts){
-	this->gifts = gifts;
-}
-void boy::setLux_gift(int lux_gift){
-	this->lux_gift = lux_gift;
-}*/
 std::string boy::getName(void){
 	return this->name;
 }
@@ -60,13 +52,3 @@ int boy::getType(void){
 int boy::getBudget(void){
 	return this->budget;
 }
-/*int boy::getSpent(void){
-	return this->spent;
-}
-int boy::getGifts(void){
-	return this->gifts;
-}
-int boy::getLux_gift(void){
-	return this->lux_gift;
-}*/
-

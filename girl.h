@@ -3,16 +3,15 @@
 #include <string>
 class girl{
 	private:
-		std::string name;
-		int attractiveness;
-		int intelligence;
-		bool is_commited;
-		double happiness;
-		int type;
-		int pref;
+		std::string name;//!girlname
+		int attractiveness;//!girl attractiveness
+		int intelligence;//!girl intelligence
+		bool is_commited;//!girl commited status
+		int type;//!girl type '1' = choosy '2' = normal '3' = desperate
+		int pref;//!girl preference '1' = most rich '2' = most attractive '3' = most intelligent
 	public:
 		int maintenance_budget;
-		girl(std::string, int, int, bool, int, int, int);
+		girl(std::string, int, int, bool, int, int, int);//!constructor
 		void setName(std::string);
 		void setAttractiveness(int);
 		void setIntelligence(int);

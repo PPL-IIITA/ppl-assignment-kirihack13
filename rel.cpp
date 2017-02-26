@@ -1,6 +1,7 @@
 #include "rel.h"
 #include <string>
 rel::rel(std::string bname, std::string gname, double happiness, int compatibility){
+//!constructor
 	this->bname = bname;
 	this->gname = gname;
 	this->happiness = happiness;

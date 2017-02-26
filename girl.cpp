@@ -1,6 +1,7 @@
 #include "girl.h"
 #include <string>
 girl::girl(std::string name, int attractiveness, int intelligence, bool is_commited, int type, int pref, int maintenance_budget){
+//!constructor	
 	this->name = name;
 	this->attractiveness = attractiveness;
 	this->intelligence = intelligence;

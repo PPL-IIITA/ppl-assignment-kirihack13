@@ -8,10 +8,10 @@ class rel{
 		std::string bname;
 		std::string gname;
 	public:
-		rel(std::string, std::string, double, int);
+		rel(std::string, std::string, double, int);//!constructor
 		std::string getBname(void);
-        std::string getGname(void);
-        double getHappiness(void);
-        int getCompatibility(void);
+        	std::string getGname(void);
+        	double getHappiness(void);
+        	int getCompatibility(void);
 };
 #endif
