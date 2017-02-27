@@ -17,3 +17,14 @@ build Q2 using
 run using ./a.out
 
 input value of k for Q2
+
+build util.cpp to generate values for blist, glist, egift, lgift, ugift
+
+to build 
+
+	g++ util.cpp;
+	
+to run ./a.out
+
+generated values already included in repository
+
