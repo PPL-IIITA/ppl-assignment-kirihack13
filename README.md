@@ -21,6 +21,10 @@ build Q3 using
 build Q4 using
 
 	g++ boy.cpp girl.cpp make_rel.cpp rel.cpp gift.cpp give_gift.cpp breakup.cpp Q4.cpp	
+
+build Q5 using
+
+	g++ boy.cpp girl.cpp simple_rel.cpp rel.cpp give_gift_Q5.cpp gift.cpp Q5.cpp
 	
 run using ./a.out
 
