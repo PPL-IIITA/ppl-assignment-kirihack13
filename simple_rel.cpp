@@ -101,7 +101,7 @@ void simpleRel(vector<boy> &b, vector<girl> &g){
 			if(i == 0)
 				continue;
 			iterator2->setIs_commited(true);
-			cout << giterator->getName() << " " << iterator2->getName() << "\n";
+			//cout << giterator->getName() << " " << iterator2->getName() << "\n";
 			output1 << giterator->getName() << " , " << iterator2->getName() << "\n";
 			output2 << giterator->getName() << " , " << iterator2->getName() << " , " << giterator->getBudget() << " , " << iterator2->getBudget() << " , " << giterator->getIntelligence() << " , " << iterator2->getIntelligence() << " , " << giterator->getAttractiveness() << " , " << iterator2->getAttractiveness() << " , " << giterator->getType() << " , " << giterator->getPreference() << " , " << iterator2->getType() << "\n";
 			giterator->setIs_commited(true);
@@ -124,7 +124,7 @@ void simpleRel(vector<boy> &b, vector<girl> &g){
 				if(mn == 0)
 					continue;
 				giterator2->setIs_commited(true);
-				cout << giterator2->getName() << " " << biterator->getName() << "\n";
+				//cout << giterator2->getName() << " " << biterator->getName() << "\n";
 				output1 << giterator2->getName() << " , " << biterator->getName() << "\n";
 				output2 << giterator2->getName() << " , " << biterator->getName() << " , " << giterator2->getBudget() << " , " << biterator->getBudget() << " , " << giterator2->getIntelligence() << " , " << biterator->getIntelligence() << " , " << giterator2->getAttractiveness() << " , " << biterator->getAttractiveness() << " , " << giterator2->getType() << " , " << giterator2->getPreference() << " , " << biterator->getType() << "\n";
 				biterator->setIs_commited(true);
