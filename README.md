@@ -2,6 +2,9 @@
 
 ppl-assignment-kirihack13 created by GitHub Classroom
 
+Created by Harpahul Singh Bhatia
+		IIT2015082
+
 tested on kali linux 2016.2 OS
 
 build Q1 using
@@ -29,6 +32,14 @@ build Q5 using
 build Q6 using
 
 	g++ boy.cpp girl.cpp make_rel.cpp rel.cpp gift.cpp give_gift.cpp breakup.cpp Q6.cpp
+	
+build Q7 using
+
+	g++ boy.cpp girl.cpp getgf.cpp rel.cpp Q7.cpp
+	
+build Q8 using
+
+	g++ boy.cpp girl.cpp make_rel.cpp rel.cpp give_new.cpp gift.cpp Q8.cpp
 	
 run using ./a.out
 
