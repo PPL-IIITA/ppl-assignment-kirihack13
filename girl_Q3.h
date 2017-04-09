@@ -6,7 +6,7 @@ class girl_Q3 : public homosapien{
 	private:
 		int pref;//!girl preference '1' = most rich '2' = most attractive '3' = most intelligent
 	public:
-		girl_Q3(std::string,int,int,int,bool,int,int);//:homosapien(std::string,int,int,bool,int,int); //!constructor
+		girl_Q3(std::string,int,int,int,bool,int,int);//!constructor
 		void setPreference(int);
 		int getPreference(void);
 };

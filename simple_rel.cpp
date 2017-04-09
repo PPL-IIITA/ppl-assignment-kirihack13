@@ -81,18 +81,18 @@ void simpleRel(vector<boy> &b, vector<girl> &g){
 			vector<boy>:: iterator iterator2;
 			for(iterator1 = b.begin(); iterator1 < b.end(); iterator1++){ //!finding suitable boy for girl according to her preference
 				if(iterator1->getBudget() > giterator->getBudget() && iterator1->getIs_commited() == false){
-					if(giterator->getPreference() == 1 && iterator1->getBudget() > max_budget){
+					if(giterator->getPreference() == 1 && iterator1->getBudget() > max_budget){//!calculating boyfriend with max budget
 						max_budget = iterator1->getBudget();
 						i = 1;
 						iterator2 = iterator1;
 					}
-					else if(giterator->getPreference() == 2 && iterator1->getAttractiveness() > max_att){
+					else if(giterator->getPreference() == 2 && iterator1->getAttractiveness() > max_att){//!calculating boyfriend with max attractiveness
 						max_att = iterator1->getAttractiveness();
 						i = 1;
 						iterator2 = iterator1;
 					}
 					else if(giterator->getPreference() == 3 && iterator1->getIntelligence() > max_intl){
-						max_intl = iterator1->getIntelligence();
+						max_intl = iterator1->getIntelligence();//!calculating boyfriend with max intelligence
 						i = 1;
 						iterator2 = iterator1;
 					}
@@ -102,11 +102,12 @@ void simpleRel(vector<boy> &b, vector<girl> &g){
 				continue;
 			iterator2->setIs_commited(true);
 			cout << giterator->getName() << " " << iterator2->getName() << "\n";
-			output1 << giterator->getName() << " , " << iterator2->getName() << "\n";
+			output1 << giterator->getName() << " , " << iterator2->getName() << "\n";//!generating couple info
 			output2 << giterator->getName() << " , " << iterator2->getName() << " , " << giterator->getBudget() << " , " << iterator2->getBudget() << " , " << giterator->getIntelligence() << " , " << iterator2->getIntelligence() << " , " << giterator->getAttractiveness() << " , " << iterator2->getAttractiveness() << " , " << giterator->getType() << " , " << giterator->getPreference() << " , " << iterator2->getType() << "\n";
 			giterator->setIs_commited(true);
 			giterator++;
 		}else{
+			//!allocating girl for a boy
 				while(biterator->getIs_commited() == true){
 					biterator++;
 				}
@@ -116,7 +117,7 @@ void simpleRel(vector<boy> &b, vector<girl> &g){
 				vector<girl>:: iterator giterator2;
 				for(giterator1 = g.begin(); giterator1 < g.end(); giterator1++){ //!finding suitable boy for girl according to her preference
 					if(giterator1->getAttractiveness() > max_att && giterator1->getIs_commited() == false){
-						max_att = giterator1->getAttractiveness();
+						max_att = giterator1->getAttractiveness();//!calculating girl with max attractiveness
 						mn = 1;
 						giterator2 = giterator1;
 					}

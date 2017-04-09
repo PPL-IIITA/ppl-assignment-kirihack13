@@ -9,7 +9,7 @@ class homosapien{
 		bool is_commited; //!boy commited status
 		int type;  
 	public:
-		int budget; //!boy budget
+		int budget; //!human budget
 		homosapien(std::string , int, int, bool, int, int); //!constructor
 		void setName(std::string); 
 		void setAttractiveness(int);

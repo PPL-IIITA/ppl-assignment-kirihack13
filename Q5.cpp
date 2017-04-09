@@ -19,7 +19,7 @@ int main()
 {
     std::vector<boy> b;
     std::vector<girl> g;
-    simpleRel(b, g); 
+    simpleRel(b, g); //!new algo to make relation according to Q5
     vector<gift> g1; //!gift vector
     vector<rel> r; //! relation vector
     giveGiftQ(g1,r); //! function called to allocate gifts

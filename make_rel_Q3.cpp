@@ -5,6 +5,7 @@
 #include <cstdlib>
 using namespace std;
 void makeRelQ3(vector<boy_Q3> &b, vector<girl_Q3> &g){
+//!function to make relations using inheritence implemented classes
 	srand(time(NULL));
 	ifstream input;
 	int z = 0;

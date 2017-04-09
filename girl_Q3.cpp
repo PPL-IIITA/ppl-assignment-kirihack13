@@ -2,6 +2,7 @@
 //#include "homosapien.cpp"
 #include <string>
 girl_Q3::girl_Q3(std::string name, int attractiveness, int intelligence, int pref, bool isCommited, int type, int budget):homosapien(name, attractiveness, intelligence, isCommited, type, budget){
+//!constructor that calls parent constructor itseld
 	this->pref = pref;
 }
 void girl_Q3::setPreference(int pref){
