@@ -26,6 +26,10 @@ build Q5 using
 
 	g++ boy.cpp girl.cpp simple_rel.cpp rel.cpp give_gift_Q5.cpp gift.cpp Q5.cpp
 	
+build Q6 using
+
+	g++ boy.cpp girl.cpp make_rel.cpp rel.cpp gift.cpp give_gift.cpp breakup.cpp Q6.cpp
+	
 run using ./a.out
 
 input value of k for Q2
