@@ -23,17 +23,18 @@ int main()
     vector<rel> r; //! relation vector
     giveGift(g,r); //! function called to allocate gifts
     sort(r.begin(), r.end(), cmp1);
-    int k;
-    cout << "Enter value of k:\n";
-    cin >> k;
-    int ls;
+    int t;
+    cout << "Enter value of t:\n";
+    cin >> t;
+    int ls = 0;
     vector<rel>::iterator iterator;
     iterator = r.end() - 1;
     int size = r.size();
-    if(size < k){
-    	k = size;
+    int i;
+    for(i = 0; i < t; i++){
+        cout << "day " << i + 1 << "\n";
+        breakUp(r, b, ls, t);
+        cout << "---------------\n";
     }
-    int t = 0;
-    breakUp(r, b, k, t);
     return 0;
 }

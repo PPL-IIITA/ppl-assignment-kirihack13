@@ -4,7 +4,7 @@
 #include <iostream>
 #include <cstdlib>
 using namespace std;
-void breakUp(vector<rel> &r, vector<boy> &b, int kin){
+void breakUp(vector<rel> &r, vector<boy> &b, int kin, int t){
 	srand(time(NULL));
 	ifstream input;
 	int sz = r.size();
@@ -14,7 +14,7 @@ void breakUp(vector<rel> &r, vector<boy> &b, int kin){
 	int k = rand()%50 + 50;//!no of boys
 	input.open("blist.csv");//!list of boys
 	bool m = false;
-	while(z < k){
+	while(z < k && input.eof() == 0){
 		ls = 1;
 		iterator = r.begin();
 		string name;
@@ -29,7 +29,7 @@ void breakUp(vector<rel> &r, vector<boy> &b, int kin){
 		input >> name >> y >> attractiveness >> y >> intelligence >> y >> min_attract >> y >> x >> y >> type >> y >> budget;
 		while(iterator != r.end()){
 			if(name == iterator->getBname()){
-				if(ls > kin){
+				if(iterator->getHappiness() >= t && ls > kin){
 					m = true;
 				}else{
 					m = false;
@@ -38,6 +38,7 @@ void breakUp(vector<rel> &r, vector<boy> &b, int kin){
 			ls++;
 			iterator++;
 		}
+		//cout << m << endl;
 		boy b1 (name, attractiveness, intelligence, min_attract, m, type, budget);
 		b.push_back(b1); //!boy object added to vector
 		z++;
@@ -45,6 +46,10 @@ void breakUp(vector<rel> &r, vector<boy> &b, int kin){
 	input.close();
 	input.open("couple_full.csv");
 	string x;
+	int ref = 1;
+	if(kin != 0){
+		ref = 0;
+	}
 	while(input.eof() == 0){
 		ls = 1;
 		iterator = r.begin();
@@ -63,7 +68,8 @@ void breakUp(vector<rel> &r, vector<boy> &b, int kin){
 		int i = 0;
 		//!x to flush of not important commas
 		input >> gname >> x >> bname >> x >> rem_maintenance >> x >> budget >> x >> gintelligence >> x >> bintelligence >> x >> gattractiveness >> x >> battractiveness >> x >> gtype >> x >> pref >> x >> btype;
-		while(ls <= kin && iterator != r.end()){
+		while((ls <= kin || ref == 1) && iterator != r.end()){
+			//cout << ls << endl;
 			if(iterator->getGname() == gname){
 				vector<boy>:: iterator iterator1;
 				vector<boy>:: iterator iterator2;
@@ -89,8 +95,12 @@ void breakUp(vector<rel> &r, vector<boy> &b, int kin){
 						}
 					}
 				}
-				if(i == 0)
+				//cout << i << endl;
+				if(i == 0){
+					ls++;
+					iterator++;
 					continue;
+				}	
 				iterator2->setIs_commited(true);
 				cout << gname << " " << iterator2->getName() << "\n";
 				break;
