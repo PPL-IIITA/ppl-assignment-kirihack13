@@ -6,6 +6,7 @@
 #include <fstream>
 #include <iostream>
 #include <vector>
+#include <ctime>
 using namespace std;
 bool cmp1(rel &r1, rel &r2){
 	//!comparator function to set happiness values decreasing order
@@ -17,6 +18,7 @@ bool cmp2(rel &r3, rel &r4){
 }
 int main()
 {
+    srand(time(NULL));
     std::vector<boy> b;
     std::vector<girl> g;
     simpleRel(b, g); //!new algo to make relation according to Q5
@@ -24,9 +26,8 @@ int main()
     vector<rel> r; //! relation vector
     giveGiftQ(g1,r); //! function called to allocate gifts
     sort(r.begin(), r.end(), cmp1);
-    int k;
-    cout << "Enter value of k:\n";
-    cin >> k;
+    int k = rand()%15 + 1;
+    cout << "Random generated value of k: " << k << "\n";
     int ls = k;
     vector<rel>::iterator iterator;
     iterator = r.begin();

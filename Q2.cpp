@@ -2,6 +2,7 @@
 #include "gift.h"
 #include "give_gift.h"
 #include <algorithm>
+#include <ctime>
 #include <fstream>
 #include <iostream>
 #include <vector>
@@ -16,13 +17,14 @@ bool cmp2(rel &r3, rel &r4){
 }
 int main()
 {
+	srand(time(NULL));
     vector<gift> g; //!gift vector
     vector<rel> r; //! relation vector
     giveGift(g,r); //! function called to allocate gifts
     sort(r.begin(), r.end(), cmp1);
     int k;
-    cout << "Enter value of k:\n";
-    cin >> k;
+    k = rand()%15 + 1;
+    cout << "Random generated value of k: " << k << "\n";
     int ls = k;
     vector<rel>::iterator iterator;
     iterator = r.begin();
