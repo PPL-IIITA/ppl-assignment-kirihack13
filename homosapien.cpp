@@ -1,5 +1,6 @@
 #include "homosapien.h"
 #include <string>
+//!parent class of boy and girl
 homosapien::homosapien(std::string name, int attractiveness, int intelligence, bool is_commited, int type, int budget){
 //!constructor
 	this->name = name;

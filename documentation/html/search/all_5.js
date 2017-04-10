@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['setname',['setName',['../classboy.html#a5d2297ec625c9ea85cac3987255380fc',1,'boy::setName()'],['../classgirl.html#acbf8f5cee4f0cf24df3c96fc43666b43',1,'girl::setName()']]]
+  ['ppl_20assignment',['PPL assignment',['../index.html',1,'']]],
+  ['ppl_2dassignment_2dkirihack13',['ppl-assignment-kirihack13',['../md__r_e_a_d_m_e.html',1,'']]]
 ];

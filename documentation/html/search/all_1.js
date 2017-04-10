@@ -1,9 +1,6 @@
 var searchData=
 [
-  ['getbname',['getBname',['../classrel.html#a1bb74d090c50469946d0eb1ccd9ab520',1,'rel']]],
-  ['getvalue',['getValue',['../classgift.html#a75432abfdbeec0b8880f4f3d265d41a6',1,'gift']]],
-  ['gift',['gift',['../classgift.html',1,'gift'],['../classgift.html#a782f5cf6316f6c76061b72cc12c6d95c',1,'gift::gift(int, double)'],['../classgift.html#a1de4cec7237a45096900754354d1edb6',1,'gift::gift(int, double, int, int)'],['../classgift.html#ac62aba6ac2db2845c7b60a5496b6de75',1,'gift::gift(int, double, int, float)']]],
-  ['girl',['girl',['../classgirl.html',1,'girl'],['../classgirl.html#a583ce9589214531dc92c46e9d0eebc75',1,'girl::girl()']]],
-  ['give_5fgift',['give_gift',['../classgive__gift.html',1,'']]],
-  ['givegift',['giveGift',['../classgive__gift.html#a4d58aac625b116fce2965ee8ed463409',1,'give_gift']]]
+  ['cmp1',['cmp1',['../_q2_8cpp.html#a3e27a38e092c51751d2b5f626cdaa62d',1,'cmp1(rel &amp;r1, rel &amp;r2):&#160;Q2.cpp'],['../_q3_8cpp.html#a3e27a38e092c51751d2b5f626cdaa62d',1,'cmp1(rel &amp;r1, rel &amp;r2):&#160;Q3.cpp'],['../_q4_8cpp.html#a3e27a38e092c51751d2b5f626cdaa62d',1,'cmp1(rel &amp;r1, rel &amp;r2):&#160;Q4.cpp'],['../_q5_8cpp.html#a3e27a38e092c51751d2b5f626cdaa62d',1,'cmp1(rel &amp;r1, rel &amp;r2):&#160;Q5.cpp'],['../_q6_8cpp.html#a3e27a38e092c51751d2b5f626cdaa62d',1,'cmp1(rel &amp;r1, rel &amp;r2):&#160;Q6.cpp'],['../_q8_8cpp.html#a3e27a38e092c51751d2b5f626cdaa62d',1,'cmp1(rel &amp;r1, rel &amp;r2):&#160;Q8.cpp'],['../simple__rel_8cpp.html#a85701420ff89978bf2a6e4f349e1bd9a',1,'cmp1(girl &amp;g1, girl &amp;g2):&#160;simple_rel.cpp']]],
+  ['cmp2',['cmp2',['../_q2_8cpp.html#a359c3b8dde158eafba30d365ce7f6b60',1,'cmp2(rel &amp;r3, rel &amp;r4):&#160;Q2.cpp'],['../_q3_8cpp.html#a359c3b8dde158eafba30d365ce7f6b60',1,'cmp2(rel &amp;r3, rel &amp;r4):&#160;Q3.cpp'],['../_q4_8cpp.html#a359c3b8dde158eafba30d365ce7f6b60',1,'cmp2(rel &amp;r3, rel &amp;r4):&#160;Q4.cpp'],['../_q5_8cpp.html#a359c3b8dde158eafba30d365ce7f6b60',1,'cmp2(rel &amp;r3, rel &amp;r4):&#160;Q5.cpp'],['../_q6_8cpp.html#a359c3b8dde158eafba30d365ce7f6b60',1,'cmp2(rel &amp;r3, rel &amp;r4):&#160;Q6.cpp'],['../_q8_8cpp.html#a359c3b8dde158eafba30d365ce7f6b60',1,'cmp2(rel &amp;r3, rel &amp;r4):&#160;Q8.cpp'],['../simple__rel_8cpp.html#a8aaed3e19e7556acba236046e8e9cf5e',1,'cmp2(boy &amp;b1, boy &amp;b2):&#160;simple_rel.cpp']]],
+  ['cp',['cp',['../structcp.html',1,'']]]
 ];

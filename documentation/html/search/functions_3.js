@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['setname',['setName',['../classboy.html#a5d2297ec625c9ea85cac3987255380fc',1,'boy::setName()'],['../classgirl.html#acbf8f5cee4f0cf24df3c96fc43666b43',1,'girl::setName()']]]
+  ['homosapien',['homosapien',['../classhomosapien.html#a102098b80f8af39b27dafdff15d6aeee',1,'homosapien::homosapien(std::string, int, int, bool, int, int)'],['../classhomosapien.html#a102098b80f8af39b27dafdff15d6aeee',1,'homosapien::homosapien(std::string, int, int, bool, int, int)']]]
 ];

@@ -50,8 +50,8 @@ void makeRelQ3(vector<boy_Q3> &b, vector<girl_Q3> &g){
 	z = 0;
 	ofstream output1;
 	ofstream output2;
-	output1.open("couple.csv");//!list of couples
-	output2.open("couple_full.csv");//!list with full info on couples
+	output1.open("couple_Q3.csv");//!list of couples
+	output2.open("couple_full_Q3.csv");//!list with full info on couples
 	while(z < j){
 		string name;
 		int attractiveness;
@@ -70,17 +70,17 @@ void makeRelQ3(vector<boy_Q3> &b, vector<girl_Q3> &g){
 		int max_intl = 0;
 		for(iterator1 = b.begin(); iterator1 < b.end(); iterator1++){ //!finding suitable boy for girl according to her preference
 			if(iterator1->getBudget() > budget && iterator1->getIs_commited() == false){
-				if(pref == 1 && iterator1->getBudget() > max_budget){
+				if(pref == 1 && iterator1->getBudget() > max_budget){//!finding boy with max budget
 					max_budget = iterator1->getBudget();
 					i = 1;
 					iterator2 = iterator1;
 				}
-				else if(pref == 2 && iterator1->getAttractiveness() > max_att){
+				else if(pref == 2 && iterator1->getAttractiveness() > max_att){//!finding boy with max attractiveness
 					max_att = iterator1->getAttractiveness();
 					i = 1;
 					iterator2 = iterator1;
 				}
-				else if(pref == 3 && iterator1->getIntelligence() > max_intl){
+				else if(pref == 3 && iterator1->getIntelligence() > max_intl){//!finding boy with max intelligence
 					max_intl = iterator1->getIntelligence();
 					i = 1;
 					iterator2 = iterator1;
@@ -90,7 +90,6 @@ void makeRelQ3(vector<boy_Q3> &b, vector<girl_Q3> &g){
 		if(i == 0)
 			continue;
 		iterator2->setIs_commited(true);
-		//cout << name << " " << iterator2->getName() << "\n";
 		output1 << name << " , " << iterator2->getName() << "\n";
 		output2 << name << " , " << iterator2->getName() << " , " << budget << " , " << iterator2->getBudget() << " , " << intelligence << " , " << iterator2->getIntelligence() << " , " << attractiveness << " , " << iterator2->getAttractiveness() << " , " << type << " , " << pref << " , " << iterator2->getType() << "\n";
 		z++;

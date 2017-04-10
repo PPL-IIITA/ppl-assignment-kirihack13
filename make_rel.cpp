@@ -5,6 +5,7 @@
 #include <cstdlib>
 using namespace std;
 void makeRel(vector<boy> &b, vector<girl> &g){
+	//!function to make relation
 	srand(time(NULL));
 	ifstream input;
 	int z = 0;
@@ -69,17 +70,17 @@ void makeRel(vector<boy> &b, vector<girl> &g){
 		int max_intl = 0;
 		for(iterator1 = b.begin(); iterator1 < b.end(); iterator1++){ //!finding suitable boy for girl according to her preference
 			if(iterator1->getBudget() > budget && iterator1->getIs_commited() == false){
-				if(pref == 1 && iterator1->getBudget() > max_budget){
+				if(pref == 1 && iterator1->getBudget() > max_budget){//!finding boy with max budget					
 					max_budget = iterator1->getBudget();
 					i = 1;
 					iterator2 = iterator1;
 				}
-				else if(pref == 2 && iterator1->getAttractiveness() > max_att){
+				else if(pref == 2 && iterator1->getAttractiveness() > max_att){//!finding boy with max attractiveness 
 					max_att = iterator1->getAttractiveness();
 					i = 1;
 					iterator2 = iterator1;
 				}
-				else if(pref == 3 && iterator1->getIntelligence() > max_intl){
+				else if(pref == 3 && iterator1->getIntelligence() > max_intl){//!finding boy with max intelligence
 					max_intl = iterator1->getIntelligence();
 					i = 1;
 					iterator2 = iterator1;

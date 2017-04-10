@@ -1,6 +1,7 @@
 #ifndef HOMOSAPIEN_H_
 #define HOMOSAPIEN_H_
 #include <string>
+//!parent class of boy and girl
 class homosapien{
 	private:
 		std::string name; //!human name

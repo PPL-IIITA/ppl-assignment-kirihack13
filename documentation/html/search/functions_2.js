@@ -1,4 +1,29 @@
 var searchData=
 [
-  ['rel',['rel',['../classrel.html#a8f18236fd22ac8c3bd4455315c2acd89',1,'rel']]]
+  ['getalc',['getAlc',['../classgift.html#a35e47e5084f539114e84b7ce477d93e2',1,'gift']]],
+  ['getattractiveness',['getAttractiveness',['../classboy.html#a49ba309bc8a901988aec23a9485fe9b8',1,'boy::getAttractiveness()'],['../classgirl.html#a25c8b2bc2d3df50ca61417f0e8c4eef5',1,'girl::getAttractiveness()'],['../classhomosapien.html#a36bfd2262341cc01977ee077a7e5f619',1,'homosapien::getAttractiveness(void)'],['../classhomosapien.html#a36bfd2262341cc01977ee077a7e5f619',1,'homosapien::getAttractiveness(void)']]],
+  ['getbname',['getBname',['../classrel.html#a1bb74d090c50469946d0eb1ccd9ab520',1,'rel']]],
+  ['getbudget',['getBudget',['../classboy.html#afcc38a4a00dcb96193565acce288b170',1,'boy::getBudget()'],['../classgirl.html#aff71d37b752b3501114356f862ae91a3',1,'girl::getBudget()'],['../classhomosapien.html#a372c40e87592045235e89956ddda2488',1,'homosapien::getBudget(void)'],['../classhomosapien.html#a372c40e87592045235e89956ddda2488',1,'homosapien::getBudget(void)']]],
+  ['getcompatibility',['getCompatibility',['../classrel.html#aebf12c2915c3231f23e4559b99c47a73',1,'rel']]],
+  ['getdifficulty',['getDifficulty',['../classgift.html#a677b7f1368eef76f344b3a623fdea915',1,'gift']]],
+  ['getgirl',['getGirl',['../getgf_8cpp.html#af88d52254d31ac1173cac1b197eac6e9',1,'getGirl(vector&lt; boy &gt; &amp;b):&#160;getgf.cpp'],['../getgf_8h.html#a1ca07cd41f0f09642e9982bd209133ce',1,'getGirl(std::vector&lt; boy &gt; &amp;b):&#160;getgf.h']]],
+  ['getgname',['getGname',['../classrel.html#a250562cd452083afa84a0d5e02d7c1a6',1,'rel']]],
+  ['gethappiness',['getHappiness',['../classrel.html#af5bb5fbc139defc9433ace4f829124b0',1,'rel']]],
+  ['getintelligence',['getIntelligence',['../classboy.html#a7e97d2b18e6e788d3665f89c5c324a4c',1,'boy::getIntelligence()'],['../classgirl.html#a7cd49c129d9ede212cf24a0d93bfcc6a',1,'girl::getIntelligence()'],['../classhomosapien.html#ab9aa094786987a968b9a156a6d038931',1,'homosapien::getIntelligence(void)'],['../classhomosapien.html#ab9aa094786987a968b9a156a6d038931',1,'homosapien::getIntelligence(void)']]],
+  ['getis_5fcommited',['getIs_commited',['../classboy.html#adfc4e65cda02ff33a0fdf3809f808c6d',1,'boy::getIs_commited()'],['../classgirl.html#aa1565f1f255770e69de297bb631a4ed8',1,'girl::getIs_commited()'],['../classhomosapien.html#a3264f22c6b40fd138286980a7bafd11e',1,'homosapien::getIs_commited(void)'],['../classhomosapien.html#a3264f22c6b40fd138286980a7bafd11e',1,'homosapien::getIs_commited(void)']]],
+  ['getlux_5frat',['getLux_rat',['../classgift.html#a680a1bc8854391b628a36faa9568f790',1,'gift']]],
+  ['getmin_5fattract',['getMin_attract',['../classboy.html#a1127d720a42a8b99e8b8b5232a01888b',1,'boy::getMin_attract()'],['../classboy___q3.html#adf326922fe56a18158161d0d41ebfe6d',1,'boy_Q3::getMin_attract(void)'],['../classboy___q3.html#adf326922fe56a18158161d0d41ebfe6d',1,'boy_Q3::getMin_attract(void)']]],
+  ['getname',['getName',['../classboy.html#a670dc0382568e874db1b457e922c4410',1,'boy::getName()'],['../classgirl.html#ae0499077a33b4a517867f431bccfe93a',1,'girl::getName()'],['../classhomosapien.html#a1e93a89a2490a563289e7ad7a295ff45',1,'homosapien::getName(void)'],['../classhomosapien.html#a1e93a89a2490a563289e7ad7a295ff45',1,'homosapien::getName(void)']]],
+  ['getpreference',['getPreference',['../classgirl.html#a445487f05d077114171887781a12e151',1,'girl::getPreference()'],['../classgirl___q3.html#a95dbbddc79b5155a877e12e6352e08af',1,'girl_Q3::getPreference(void)'],['../classgirl___q3.html#a95dbbddc79b5155a877e12e6352e08af',1,'girl_Q3::getPreference(void)']]],
+  ['getprice',['getPrice',['../classgift.html#afb3ea488ce0a02ae622c1acf5608bc94',1,'gift']]],
+  ['gettype',['getType',['../classboy.html#a4449dd8bd85b8fb071624c00843d4879',1,'boy::getType()'],['../classgift.html#a820ca25bbee4873ef9b0e82ca2f73ad3',1,'gift::getType()'],['../classgirl.html#ac0eb402f33a9b066a89ae0eeda483ea4',1,'girl::getType()'],['../classhomosapien.html#a2157c9d5eeb763c5fde1f42f4a6bb48b',1,'homosapien::getType(void)'],['../classhomosapien.html#a2157c9d5eeb763c5fde1f42f4a6bb48b',1,'homosapien::getType(void)']]],
+  ['getutil_5fclass',['getUtil_class',['../classgift.html#a2bb6e0ed9bb5c1f98d47660d39ebf3f8',1,'gift']]],
+  ['getutil_5fval',['getUtil_val',['../classgift.html#a5e2d84e4d1fe8c00903a71195fc41487',1,'gift']]],
+  ['getvalue',['getValue',['../classgift.html#a75432abfdbeec0b8880f4f3d265d41a6',1,'gift']]],
+  ['gift',['gift',['../classgift.html#a782f5cf6316f6c76061b72cc12c6d95c',1,'gift::gift(int, double)'],['../classgift.html#a1de4cec7237a45096900754354d1edb6',1,'gift::gift(int, double, int, int)'],['../classgift.html#ac62aba6ac2db2845c7b60a5496b6de75',1,'gift::gift(int, double, int, float)']]],
+  ['girl',['girl',['../classgirl.html#a583ce9589214531dc92c46e9d0eebc75',1,'girl']]],
+  ['girl_5fq3',['girl_Q3',['../classgirl___q3.html#a2c595ffa07045ad1d7d22ffcc36723a7',1,'girl_Q3']]],
+  ['giveal',['giveAl',['../give__new_8cpp.html#a218ad00cb368ca7fdbe9d2201e9920bc',1,'giveAl(std::vector&lt; gift &gt; &amp;ug, std::vector&lt; gift &gt; &amp;eg, std::vector&lt; gift &gt; &amp;lg, std::vector&lt; rel &gt; &amp;r):&#160;give_new.cpp'],['../give__new_8h.html#a218ad00cb368ca7fdbe9d2201e9920bc',1,'giveAl(std::vector&lt; gift &gt; &amp;ug, std::vector&lt; gift &gt; &amp;eg, std::vector&lt; gift &gt; &amp;lg, std::vector&lt; rel &gt; &amp;r):&#160;give_new.cpp']]],
+  ['givegift',['giveGift',['../give__gift_8cpp.html#a4d58aac625b116fce2965ee8ed463409',1,'giveGift(std::vector&lt; gift &gt; &amp;g, std::vector&lt; rel &gt; &amp;r):&#160;give_gift.cpp'],['../give__gift_8h.html#a4d58aac625b116fce2965ee8ed463409',1,'giveGift(std::vector&lt; gift &gt; &amp;g, std::vector&lt; rel &gt; &amp;r):&#160;give_gift.cpp']]],
+  ['givegiftq',['giveGiftQ',['../give__gift___q5_8cpp.html#abad76b5070a0fdf9d34a475880a6a778',1,'giveGiftQ(std::vector&lt; gift &gt; &amp;g, std::vector&lt; rel &gt; &amp;r):&#160;give_gift_Q5.cpp'],['../give__gift___q5_8h.html#abad76b5070a0fdf9d34a475880a6a778',1,'giveGiftQ(std::vector&lt; gift &gt; &amp;g, std::vector&lt; rel &gt; &amp;r):&#160;give_gift_Q5.cpp']]]
 ];

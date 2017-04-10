@@ -2,16 +2,17 @@
 
 ppl-assignment-kirihack13 created by GitHub Classroom
 
-Created by Harpahul Singh Bhatia
-		IIT2015082
+Created by 
+	
+	Harpahul Singh Bhatia
+
+	IIT2015082
 
 tested on kali linux 2016.2 OS
 
 build Q1 using
 
 	g++ boy.cpp girl.cpp make_rel.cpp rel.cpp Q1.cpp
-	
-run using ./a.out
 
 build Q2 using
 	
@@ -43,7 +44,7 @@ build Q8 using
 	
 run using ./a.out
 
-input value of k for Q2
+Input values for variables such as k and t are randomly generated instead of console input
 
 build util.cpp to generate values for blist, glist, egift, lgift, ugift
 
